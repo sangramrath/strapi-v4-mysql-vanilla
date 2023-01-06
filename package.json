@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "start": "strapi start",
+    "start": "node node_modules/@strapi/strapi/bin/strapi.js start",
     "develop": "strapi develop",
     "build": "strapi build",
-    "strapi": "node_modules/@strapi/strapi/bin/strapi.js start"
+    "strapi": "strapi"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.5.5",
