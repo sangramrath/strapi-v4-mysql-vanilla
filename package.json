@@ -7,7 +7,7 @@
     "start": "strapi start",
     "develop": "strapi develop",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "node_modules/@strapi/strapi/bin/strapi.js start"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.5.5",
