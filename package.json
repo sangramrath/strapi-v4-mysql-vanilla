@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "start": "node ./node_modules/@strapi/strapi/bin/strapi.js start",
+    "start": "node server.js",
     "develop": "strapi develop",
     "build": "strapi build",
     "strapi": "strapi"
