@@ -1,9 +1,5 @@
 'use strict';
-const strapi = require('node_modules/@strapi/strapi/lib/index');
-const strapiDev=require('node_modules/@strapi/strapi/lib/commands/develop')
+const strapi = require('strapi');
 
-if (process.env.DEV_MODE === true) {
-  strapiDev();
-} else {
-  strapi().start();
-}
+strapi().start();
+
